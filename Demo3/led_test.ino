@@ -38,6 +38,15 @@ void loop() {
       }
       break;
   }
+  /* Voici la version "compacte"
+    switch (ledStep){
+    case 0 : digitalWrite(LED_R1, HIGH);
+    case 1 : digitalWrite(LED_R2, HIGH);
+    case 2 : digitalWrite(LED_B, HIGH);
+    case 3 : digitalWrite(LED_R1, LOW);
+      digitalWrite(LED_R2, LOW);
+      digitalWrite(LED_B, LOW);
+  }*/
 
   previousState = state;
 
