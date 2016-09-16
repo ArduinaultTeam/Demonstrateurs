@@ -38,7 +38,7 @@ void loop() {
       }
       break;
   }
-  /* Voici la version "compacte"
+  /* Voici la version "compacte" (pour les bons)
     switch (ledStep){
     case 0 : digitalWrite(LED_R1, HIGH);
     case 1 : digitalWrite(LED_R2, HIGH);
